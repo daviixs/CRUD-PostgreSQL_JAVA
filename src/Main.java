@@ -8,7 +8,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // Conexão com o banco
-        Connection conn = db.connect_to_db("associacao_patinhas", "------", "-----");
+        Connection conn = db.connect_to_db("associacao_patinhas", "postgres", "davizin99");
 
         int opcoes;
 
